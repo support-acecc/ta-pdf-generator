@@ -1,0 +1,19 @@
+{
+  "name": "ta-pdf-generator",
+  "version": "1.0.0",
+  "description": "Technical Assistance Agreement PDF Generator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pdfkit": "^0.13.0",
+    "googleapis": "^118.0.0",
+    "google-auth-library": "^8.9.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "20"
+  }
+}
